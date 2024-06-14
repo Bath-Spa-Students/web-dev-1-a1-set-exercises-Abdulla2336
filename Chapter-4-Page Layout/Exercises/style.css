@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex; 
+    justify-content: space-between; 
+    }
+
+
+
+header  {
+    font-family: Tahoma; 
+    color: white;
+    font: 700; 
+    background-color: #17072b; 
+    text-align: center;
+    text-decoration: underline; 
+    padding: 20px; 
+}
+
+
+
+.navigation_bar a {
+    background-color: #17072b; 
+    color: white; 
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none; 
+    padding: 10px; 
+}
+
+
+
+#Welcome {
+    font-family: Arial;
+    background-color: white;
+    margin-left: 35px; 
+    flex: 2; 
+}
+
+
+
+#Welcome h2 {
+    font-size: 35px; 
+    text-decoration: underline;
+}
+
+
+
+#Welcome p {
+    font: 400; 
+    font-size: 25px;
+    margin-right: 75px; 
+}
+
+
+
+#Welcome img {
+    max-width: 100%; 
+}
+
+
+
+.Line_Up {
+    font-size: 20px; 
+    font-family: Arial; 
+    background-color: #172d67; 
+    color: white; 
+    text-indent: 20px; 
+    margin-top: 10px; 
+    margin-left: 50px; 
+    flex: 1; 
+}
+
+
+
+.Line_Up h2 {
+    color: white; 
+    text-decoration: underline; 
+}
+
+
+
+.image1, .image2 {
+    width: 40%; 
+    margin: 15px; 
+    margin-top: 60px; 
+}
+
+
+
+footer {
+    font-family: Arial; 
+    font-size: x-large; 
+    color: white; 
+    background-color: #8c15e9; 
+    text-align: center; 
+    padding: 30px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}

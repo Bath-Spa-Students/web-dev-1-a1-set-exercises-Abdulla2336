@@ -1,0 +1,76 @@
+/* Body style */
+body {
+    font-family: Arial, sans-serif; /* Font */
+    background-color: #f0f0f0; /* Background color */
+    padding: 50px; /* Padding */
+}
+
+/* Header style */
+header {
+    background-color: #3498db; /* Background color */
+    border-bottom: 2px solid #2980b9; /* Border size and color */
+    padding: 20px; /* Padding */
+    color: #ffffff; /* Text color */
+}
+
+/* Calculator style */
+.calculator {
+    text-align: center; /* Aligns the text into the center */
+    margin-top: 50px; /* Margin from the top */
+    margin-bottom: 20px; /* Margin from the bottom */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    max-width: 400px; /* Max width */
+}
+
+.input,
+.amount {
+    margin-bottom: 20px; /* Margin from the bottom */
+    text-align: center; /* Aligns the text into the center */
+}
+
+/* Number input style */
+input[type="number"] {
+    font-size: 1.5em; /* Font size */
+    text-align: center; /* Aligns the text into the center */
+    width: 100%; /* Width */
+    padding: 15px; /* Padding */
+    border-radius: 10px; /* Border radius */
+    border: 2px solid #bdc3c7; /* Border */
+    box-sizing: border-box; /* Box sizing */
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+/* Number input style on focus */
+input[type="number"]:focus {
+    border-color: #2980b9; /* Border color on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Calculate button style */
+.calculate {
+    text-align: center; /* Aligns the text into the center */
+}
+
+/* Button style */
+button {
+    background-color: #2ecc71; /* Background color */
+    color: #ffffff; /* Text color */
+    font-size: 1.5em; /* Font size */
+    padding: 15px 30px; /* Padding */
+    border-radius: 10px; /* Border radius */
+    cursor: pointer; /* Set cursor to pointer */
+    border: none; /* Remove default border */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button style on hover */
+button:hover {
+    background-color: #27ae60; /* Background color on hover */
+}
+
+/* Total cost style */
+#total-cost {
+    margin-top: 30px; /* Margin in the top */
+    font-size: 1.25em; /* Font size */
+}

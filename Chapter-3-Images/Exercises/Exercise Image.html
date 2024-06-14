@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .image-wrapper {
+            margin-bottom: 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            transition: filter 0.3s ease-in-out;
+        }
+        img:hover {
+            filter: brightness(120%);
+        }
+        .filtered-img {
+            filter: grayscale(100%);
+        }
+        .filtered-img:hover {
+            filter: none;
+        }
+        .image-info {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="image-wrapper">
+        <img src="cityscape at night.jpeg" alt="Cityscape at night" width="400" height="267" title="City Lights">
+        <div class="image-info">Copyright: Pixabay (CC0)</div>
+    </div>
+    <div class="image-wrapper">
+        <img src="cityscape at night.jpeg" alt="Filtered Cityscape at night" width="400" height="267" title="Filtered City Lights" class="filtered-img">
+        <div class="image-info">Filtered Version</div>
+    </div>
+    <div class="image-wrapper">
+        <img src="Tropical beach.jpeg" alt="Tropical beach" width="400" height="267" title="Tropical Paradise">
+        <div class="image-info">Copyright: Unsplash (CC0)</div>
+    </div>
+    <div class="image-wrapper">
+        <img src="Tropical beach.jpeg" alt="Filtered Tropical beach" width="400" height="267" title="Filtered Tropical Paradise" class="filtered-img">
+        <div class="image-info">Filtered Version</div>
+    </div>
+    <div class="image-wrapper">
+        <img src="mountain landscape.jpeg" alt="Mountain landscape" width="400" height="267" title="Majestic Mountains">
+        <div class="image-info">Copyright: Pexels (CC0)</div>
+    </div>
+    <div class="image-wrapper">
+        <img src="mountain landscape.jpeg" alt="Filtered Mountain landscape" width="400" height="267" title="Filtered Majestic Mountains" class="filtered-img">
+        <div class="image-info">Filtered Version</div>
+    </div>
+</div>
+
+</body>
+</html>
